@@ -37,13 +37,13 @@
 
 			input[type=text]
 			{
-				background: url(img/people.png) no-repeat .7rem .4rem;
+				background: url(../img/people.png) no-repeat .7rem .4rem;
 				background-size: .875rem .925rem;
 			}
 			input[type=password]
 			{
 				margin-top: .75rem;
-				background: url(img/lock.png) no-repeat .7rem .4rem;
+				background: url(../img/lock.png) no-repeat .7rem .4rem;
 				background-size: .875rem .925rem;
 			}
 			.commit 
