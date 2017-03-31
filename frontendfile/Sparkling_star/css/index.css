@@ -1,0 +1,147 @@
+body {
+				background: #f1f0f8;
+			}
+			
+			ul {
+				width: 15.25rem;
+				background: #fff;
+				padding-left: .75rem;
+			}
+			
+			ul li {
+				width: 15.25rem;
+				height: 2.2rem;
+				line-height: 2.2rem;
+				border-bottom: 1px solid #c8c8c8;
+				font-size: .75rem;
+				color: #cccccc;
+				position: relative;
+			}
+			
+			ul li span {
+				font-size: .75rem;
+				color: #666666;
+			}
+			
+			li input[type=text] {
+				margin-left: .75rem;
+				font-size: .75rem;
+			}
+			
+			li select {
+				margin-left: .75rem;
+				height: 1.5rem;
+				line-height: 1.5rem;
+				border: 0;
+				outline: none;
+				width: 11rem;
+				appearance: none;
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				background: url(img/bottom_roow.png) no-repeat right .5rem center;
+				background-size: .76rem .5rem;
+				padding-right: .75rem;
+			}
+			
+			select option {
+				color: #333333;
+			}
+			
+			.conmit {
+				width: 14rem;
+				background: #e65e48;
+				margin-top: 2.15rem;
+				height: 1.75rem;
+				color: #fff;
+				border: 0;
+				outline: none;
+				margin-left: 1rem;
+				border-radius: 1.75rem;
+				font-size: .75rem;
+			}
+			
+			.get_code {
+				position: absolute;
+				right: .75rem;
+				width: 4.5rem;
+				height: 1.25rem;
+				line-height: 1.25rem;
+				color: #fff;
+				background: #e65e48;
+				font-size: .6rem;
+				outline: none;
+				border: 0;
+				margin-top: .5rem;
+				border-radius: 1.25rem;
+			}
+			
+			.del_pop {
+				position: fixed;
+				z-index: 9999;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			
+			.delpop_disk {
+				background-color: #000;
+				filter: alpha(opacity=30);
+				opacity: .3;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.del_pop .main {
+				position: absolute;
+				border-radius: 5px;
+				z-index: 99999;
+				left: 50%;
+				top: 50%;
+				margin-left: -6.25rem;
+				margin-top: -8.6rem;
+				width: 12.5rem;
+				background-color: #fff;
+				text-align: center;
+			}
+			.del_pop .main img{
+				width: 2.75rem;
+				height: 2.75rem;
+				margin-top: 1rem;
+			}
+			.del_pop .main .top {
+				width: 12.5rem;
+				color: #f63e2b;
+				font-weight: 800;
+				color: #333333;
+				font-family: "微软雅黑";
+				text-align: center;
+				font-size: 0.8rem;
+				height: 2.01rem;
+				line-height: 2.01rem;
+			}
+			
+			.del_pop .main .text1 {
+				width: 10.5rem;
+				height: 5rem;
+				margin-left: 1rem;
+				margin-top: .75rem;
+				color: #A4A9AA;
+				font-size: .63rem;
+			}
+			.del_pop .main .b_button {
+				width: 12.5rem;
+				height: 2.1rem;
+				outline: none;
+				bottom: 0;
+				border: 0;
+				background: #fff;
+				border-top: 1px dashed #A4A9AA;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+				color: #f63e2b;
+				font-size: .8rem;
+				position: absolute;
+				left: 0;
+			}

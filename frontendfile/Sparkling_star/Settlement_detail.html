@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "format-detection" content = "telephone=no">
+		<title>结算详情</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<style type="text/css">
+			.heard {
+				width: 16rem;
+				height: 2rem;
+				background: #fff;
+			}
+			
+			.heard .left {
+				width: 7.975rem;
+				height: 2rem;
+				float: left;
+				text-align: center;
+				line-height: 2rem;
+			}
+			
+			.left img {
+				width: .75rem;
+				height: 1rem;
+			    margin-top: -.3rem;
+			}
+			
+			.left span {
+				font-family: "宋体";
+				font-size: .65rem;
+				font-weight: 700;
+				margin-left: 10px;
+			}
+			.heard .line {
+				width: .08rem;
+				height: .85rem;
+				float: left;
+				margin-top: 0.575rem;
+				background: #000000;
+			}
+			
+			.heard .right {
+				float: right;
+				width: 7.9rem;
+				height: 2rem;
+				text-align: center;
+				line-height: 2rem;
+			}
+			.right img {
+				width: .75rem;
+				height: .85rem;
+				margin-top: -.3rem;
+			}
+			
+			.right span {
+				font-family: "宋体";
+				font-size: .65rem;
+				font-weight: 700;
+				margin-left: 10px;
+			}
+			
+			ul
+			{
+				margin-top: .64rem;
+				background: #fff;
+				padding-top: 1px;
+				padding-bottom: .64rem;
+			}
+			ul li
+			{
+				background: #fff;
+				width: 16rem;
+				height: 5.3rem;
+				margin-top: .64rem;
+			}
+			.li_left
+			{
+				position: relative;
+				float: left;
+				margin-left: .64rem;
+			}
+			.li_right
+			{
+				position: relative;
+				float: right;
+				margin-right: .64rem;
+			}
+			.li_left .bac_img
+			{
+				width: 9.17rem;
+				height: 5.3rem;
+			}
+		    .li_left .bac_kuang
+			{
+				position: absolute;
+				left: .5rem;
+				top: .46rem;
+				width: 8.23rem;
+				height: 4.38rem;
+			}
+			.li_left .text_left
+			{
+				position: absolute;
+				top: .8rem;
+				left: 1rem;
+				color: #FFF;
+				
+			}
+			.text_left .P1
+			{
+				font-size: .85rem;
+				margin-left: .6rem;
+			}
+			.P1 label
+			{
+				font-size: 1.06rem;
+			}
+			
+			.text_left .P2
+			{
+				font-size: .65rem;
+				margin-top: .3rem;
+				margin-left: .1rem;
+			}
+			.text_left .P3
+			{
+				font-size: .65rem;
+				margin-top: .1rem;
+				margin-left: .1rem;
+				
+			}
+			.li_right .bac_img
+			{
+				width: 5.54rem;
+				height: 5.3rem;
+			}
+			
+			.li_right .bac_kuang
+			{
+				position: absolute;
+				left: .5rem;
+				top: .46rem;
+				width: 4.63rem;
+				height:4.38rem;
+			}
+			.weixiaofei .li_right .text_right
+			{
+				position: absolute;
+				top: 1rem;
+				left: .7rem;
+				color: #FFF;
+				
+			}
+			.weixiaofei .li_right .text_right .P1
+			{
+				font-family: "宋体";
+				font-weight: 800;
+				font-size: 1.06rem;
+				margin-left: .5rem;
+				color: #666666;
+			}
+			.weixiaofei .li_right .text_right .P2
+			{
+				font-size: .5rem;
+				margin-top: .3rem;
+				color: #e65e48;
+			}
+			.li_right .text_right .P3
+			{
+				font-size: .5rem;
+				margin-top: .1rem;
+				color: #999999;
+			}
+			
+			.yixiaofei .li_right .text_right
+			{
+				position: absolute;
+				top: 1rem;
+				left: .7rem;
+				color: #FFF;
+				
+			}
+			.yixiaofei .li_right .text_right .P1
+			{
+				font-family: "宋体";
+				font-weight: 800;
+				font-size: 1.06rem;
+				margin-left: .5rem;
+				color: #cccccc;
+			}
+			.yixiaofei .li_right .text_right .P2
+			{
+				font-size: .5rem;
+				margin-top: .3rem;
+				color: #cccccc;
+			}
+		</style>
+
+	</head>
+
+	<body style="background: #f1f0f8;">
+		<div class="heard">
+			<div class="left">
+				<img src="img/address.png" />
+				<span>大望路绿茶餐厅</span>
+			</div>
+			<div class="line"></div>
+			<div class="right">
+				<img src="img/people_red.png" />
+				<span>登录人姓名</span>
+			</div>
+		</div>
+		
+		<ul>
+			<li class="weixiaofei">
+				<div class="li_left">
+					<img class="bac_img" src="img/bacleft_red.png"/>
+					<img class="bac_kuang" src="img/left_kuang.png"/>
+					<div class="text_left">
+						<p class="P1"><span>折后金额</span> <label>500</label> </p>
+						<p class="P2"><span>姓名:</span> <label>刘艳花</label> </p>
+						<p class="P3"><span>联系方式:</span> <label>16788776665</label> </p>
+					</div>
+				</div>
+				<div class="li_right">
+					<img class="bac_img" src="img/bacright_red.png"/>
+					<img class="bac_kuang" src="img/right_kuang.png"/>
+				    <div class="text_right">
+						<p class="P1"><span>未消费</span></p>
+						<p class="P2"><span>优惠码</span> <label>wj868843</label> </p>
+						<p class="P3"><span>2012.3.4</span> <label>过期</label> </p>
+					</div>
+				</div>
+			</li>
+			<li class="weixiaofei">
+				<div class="li_left">
+					<img class="bac_img" src="img/bacleft_red.png"/>
+					<img class="bac_kuang" src="img/left_kuang.png"/>
+					<div class="text_left">
+						<p class="P1"><span>折后金额</span> <label>500</label> </p>
+						<p class="P2"><span>姓名:</span> <label>刘艳花</label> </p>
+						<p class="P3"><span>联系方式:</span> <label>16788776665</label> </p>
+					</div>
+				</div>
+				<div class="li_right">
+					<img class="bac_img" src="img/bacright_red.png"/>
+					<img class="bac_kuang" src="img/right_kuang.png"/>
+				    <div class="text_right">
+						<p class="P1"><span>未消费</span></p>
+						<p class="P2"><span>优惠码</span> <label>wj868843</label> </p>
+						<p class="P3"><span>2012.3.4</span> <label>过期</label> </p>
+					</div>
+				</div>
+			</li>
+			<li class="yixiaofei">
+				<div class="li_left">
+					<img class="bac_img" src="img/bacleft_blur.png"/>
+					<img class="bac_kuang" src="img/left_kuang.png"/>
+					<div class="text_left">
+						<p class="P1"><span>折后金额</span> <label>500</label> </p>
+						<p class="P2"><span>姓名:</span> <label>刘艳花</label> </p>
+						<p class="P3"><span>联系方式:</span> <label>16788776665</label> </p>
+					</div>
+				</div>
+				<div class="li_right">
+					<img class="bac_img" src="img/bacright_blur.png"/>
+					<img class="bac_kuang" src="img/right_kuang.png"/>
+				    <div class="text_right">
+						<p class="P1"><span>已消费</span></p>
+						<p class="P2"><span>优惠码</span> <label>wj868843</label> </p>
+						<p class="P3"><span>2012.3.4</span> <label>过期</label> </p>
+					</div>
+				</div>
+			</li>
+			<li class="yixiaofei">
+				<div class="li_left">
+					<img class="bac_img" src="img/bacleft_blur.png"/>
+					<img class="bac_kuang" src="img/left_kuang.png"/>
+					<div class="text_left">
+						<p class="P1"><span>折后金额</span> <label>500</label> </p>
+						<p class="P2"><span>姓名:</span> <label>刘艳花</label> </p>
+						<p class="P3"><span>联系方式:</span> <label>16788776665</label> </p>
+					</div>
+				</div>
+				<div class="li_right">
+					<img class="bac_img" src="img/bacright_blur.png"/>
+					<img class="bac_kuang" src="img/right_kuang.png"/>
+				    <div class="text_right">
+						<p class="P1"><span>已消费</span></p>
+						<p class="P2"><span>优惠码</span> <label>wj868843</label> </p>
+						<p class="P3"><span>2012.3.4</span> <label>过期</label> </p>
+					</div>
+				</div>
+			</li>
+			<li class="weixiaofei">
+				<div class="li_left">
+					<img class="bac_img" src="img/bacleft_red.png"/>
+					<img class="bac_kuang" src="img/left_kuang.png"/>
+					<div class="text_left">
+						<p class="P1"><span>折后金额</span> <label>500</label> </p>
+						<p class="P2"><span>姓名:</span> <label>刘艳花</label> </p>
+						<p class="P3"><span>联系方式:</span> <label>16788776665</label> </p>
+					</div>
+				</div>
+				<div class="li_right">
+					<img class="bac_img" src="img/bacright_red.png"/>
+					<img class="bac_kuang" src="img/right_kuang.png"/>
+				    <div class="text_right">
+						<p class="P1"><span>未消费</span></p>
+						<p class="P2"><span>优惠码</span> <label>wj868843</label> </p>
+						<p class="P3"><span>2012.3.4</span> <label>过期</label> </p>
+					</div>
+				</div>
+			</li>
+			
+		</ul>
+		<script src="js/zepto_1.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobile-util.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
