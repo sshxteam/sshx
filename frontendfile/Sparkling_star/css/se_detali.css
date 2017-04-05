@@ -54,136 +54,123 @@
 			
 			ul
 			{
-				margin-top: .64rem;
-				background: #fff;
-				padding-top: 1px;
 				padding-bottom: .64rem;
 			}
 			ul li
 			{
-				background: #fff;
 				width: 16rem;
-				height: 5.3rem;
+				height: 3.37rem;
 				margin-top: .64rem;
-			}
-			.li_left
-			{
 				position: relative;
-				float: left;
+			}
+			li img{
+				width: 14.72rem;
 				margin-left: .64rem;
-			}
-			.li_right
-			{
-				position: relative;
-				float: right;
-				margin-right: .64rem;
-			}
-			.li_left .bac_img
-			{
-				width: 9.17rem;
-				height: 5.3rem;
-			}
-		    .li_left .bac_kuang
-			{
+				height: 3.37rem;
 				position: absolute;
-				left: .5rem;
-				top: .46rem;
-				width: 8.23rem;
-				height: 4.38rem;
+				top: 0;
+				left: 0;
 			}
-			.li_left .text_left
+			li .text1
 			{
+				font-family: "";
 				position: absolute;
-				top: .8rem;
-				left: 1rem;
-				color: #FFF;
-				
-			}
-			.text_left .P1
-			{
-				font-size: .85rem;
-				margin-left: .6rem;
-			}
-			.P1 label
-			{
-				font-size: 1.06rem;
+				width: 5.12rem;
+				height: 3.37rem;
+				margin-left: .64rem;
+				z-index: 99999;
 			}
 			
-			.text_left .P2
+			.text1 .P1
 			{
-				font-size: .65rem;
-				margin-top: .3rem;
-				margin-left: .1rem;
+				font-family: "微软雅黑";
+				font-size: .7rem;
+				margin-left: 1.28rem;
+				color: #fff;
+				margin-top: .42rem;
 			}
-			.text_left .P3
-			{
-				font-size: .65rem;
-				margin-top: .1rem;
-				margin-left: .1rem;
-				
-			}
-			.li_right .bac_img
-			{
-				width: 5.54rem;
-				height: 5.3rem;
-			}
-			
-			.li_right .bac_kuang
-			{
-				position: absolute;
-				left: .5rem;
-				top: .46rem;
-				width: 4.63rem;
-				height:4.38rem;
-			}
-			.weixiaofei .li_right .text_right
-			{
-				position: absolute;
-				top: 1rem;
-				left: .7rem;
-				color: #FFF;
-				
-			}
-			.weixiaofei .li_right .text_right .P1
+			.text1 .P2
 			{
 				font-family: "宋体";
+				font-size: .85rem;
+				color: #fff;
 				font-weight: 800;
-				font-size: 1.06rem;
+				margin-left: 1.88rem;
+				line-height: .8rem;
+			}
+		     .weixiaofei .text1 .P3
+			{
+				color: #f1bdb5;
+				font-size: .45rem;
+				margin-left: .9rem;
+			}
+			.yixiaofei .text1 .P3
+			{
+				color: #c2c2c2;
+				font-size: .45rem;
+				margin-left: .9rem;
+			}
+			li .text2
+			{
+				position: absolute;
+				width: 7.76rem;
+				height: 3.37rem;
+				left: 5.76rem;
+				z-index: 99999;
+				border-right: 1px dashed #C7C7C7;
+			}
+			
+			.text2 .P1
+			{
+				font-family: "微软雅黑";
+				font-size: .55rem;
 				margin-left: .5rem;
 				color: #666666;
+				margin-top: .6rem;
 			}
-			.weixiaofei .li_right .text_right .P2
-			{
-				font-size: .5rem;
-				margin-top: .3rem;
-				color: #e65e48;
-			}
-			.li_right .text_right .P3
-			{
-				font-size: .5rem;
-				margin-top: .1rem;
-				color: #999999;
-			}
-			
-			.yixiaofei .li_right .text_right
-			{
-				position: absolute;
-				top: 1rem;
-				left: .7rem;
-				color: #FFF;
-				
-			}
-			.yixiaofei .li_right .text_right .P1
+			.text2 .P2
 			{
 				font-family: "宋体";
-				font-weight: 800;
-				font-size: 1.06rem;
+				font-size: .55rem;
+				color: #666666;
 				margin-left: .5rem;
-				color: #cccccc;
+				line-height: .7rem;
 			}
-			.yixiaofei .li_right .text_right .P2
+			.text2 .P3
 			{
-				font-size: .5rem;
-				margin-top: .3rem;
-				color: #cccccc;
+				color: #666666;
+				font-size: .55rem;
+				margin-left: .5rem;
+			}
+			.P3 .youhuim
+			{
+				color: #e65e48;
+			}
+			
+			.weixiaofei .text3
+			{
+				font-family: "微软雅黑";
+				position: absolute;
+				float: right;
+				height: 3.37rem;
+				width: .5rem;
+				left: 13.52rem;
+				text-align: center;
+				padding: .25rem .6rem;
+				color: #e65e48;
+				font-size: .47rem;
+			}
+			
+			.yixiaofei .text3
+			{
+				font-family: "微软雅黑";
+				position: absolute;
+				float: right;
+				height: 3.37rem;
+				width: .5rem;
+				left: 13.52rem;
+				text-align: center;
+				padding: .6rem .6rem;
+				color: #666666;
+				font-size: .47rem;
 			}
