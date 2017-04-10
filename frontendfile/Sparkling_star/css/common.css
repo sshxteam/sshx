@@ -216,3 +216,19 @@ em,
 i {
 	font-style: normal;
 }
+.loadmore
+{
+	background: url(../img/loadmore.gif) no-repeat 5rem center;
+	background-size:1rem 1rem;
+	padding-left: 2rem;
+	width: 14rem;
+	font-size: .7rem;
+	color: #666666;
+	display: block;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	list-style: none;
+	display: none;
+	
+}
