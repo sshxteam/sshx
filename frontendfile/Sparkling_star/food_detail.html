@@ -158,7 +158,9 @@
 				</div>
 			</li>
 		</ul>
-		
+		<li class="loadmore" style="margin-bottom: .5rem;">
+				正在加载。。。
+			</li>
 		<div class="activity mar_bottom30">
 			活动说明
 		</div>
@@ -214,6 +216,14 @@
 	    		     
 	    		});
 	    	});
+	    	$(window).scroll(function() {　　
+				var scrollTop = $(this).scrollTop();　　
+				var scrollHeight = $(document).height();　　
+				var windowHeight = $(this).height();　　
+				if(scrollTop + windowHeight == scrollHeight) {　　　　
+					$('.loadmore').show();
+				}
+			});
 	    </script>
 	</body>
 
